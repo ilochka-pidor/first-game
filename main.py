@@ -148,7 +148,7 @@ class Human:
             elif dice == 4:
                 print("Time for treats!")
                 self.shopping(manage="delicacies")
-            self.days_indexes(day)
+        self.days_indexes(day)
 
 class Auto:
     def __init__(self, brand_list):
